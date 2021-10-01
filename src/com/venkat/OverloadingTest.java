@@ -41,9 +41,11 @@ class OverloadingTest {
 	
 	public static void main(String[] args) {
 		//Parent o =new Parent() ;
-		Parent c = new Child();
-		Parent g = c;
-		c.mm2();
+		GrandChild g = new GrandChild();
+		Child c =g;
+		Parent gg = c;
+		
+		c.m1();
 
 	}
 }

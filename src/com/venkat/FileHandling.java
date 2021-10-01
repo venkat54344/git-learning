@@ -15,7 +15,7 @@ public class FileHandling {
 		 * FileOutputStream("C:\\Users\\venkat\\Downloads\\output.txt"); int temp;
 		 * while((temp=fi.read()) != -1) { fo.write((byte)temp); }
 		 */
-		
+		System.out.println("hhhh");
 
 Student s = new Student(1, "venkat");
 System.out.println(s.hashCode());
