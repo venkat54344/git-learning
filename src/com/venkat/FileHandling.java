@@ -1,10 +1,6 @@
 package com.venkat;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class FileHandling {
 	public static void main(String[] args) throws IOException {
@@ -15,7 +11,11 @@ public class FileHandling {
 		 * FileOutputStream("C:\\Users\\venkat\\Downloads\\output.txt"); int temp;
 		 * while((temp=fi.read()) != -1) { fo.write((byte)temp); }
 		 */
+
 		System.out.println("hhhh");
+
+		System.out.println("FileHandling added extra here.....");
+
 
 Student s = new Student(1, "venkat");
 System.out.println(s.hashCode());
